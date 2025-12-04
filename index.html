@@ -731,7 +731,204 @@
     }
   });
 </script>
+  </section>
+
+<!-- Sección: Recorrido -->
+<section id="recorrido" style="background-color: #282828; padding: 3rem 1rem; text-align: center; font-family: 'Fraunces', serif; margin-top: 0; margin-bottom: 30px; box-sizing: border-box; position: relative;">
+  <div style="max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; align-items: center;">
+    <!-- Separador decorativo superior -->
+    <div style="width: 100%; margin-bottom: 1.5rem; max-width: 300px;">
+      <svg width="100%" height="8" viewBox="0 0 400 8" xmlns="http://www.w3.org/2000/svg" style="display: block; margin: 0 auto;">
+        <line x1="0" y1="4" x2="400" y2="4" stroke="#BA9971" stroke-width="1"/>
+        <circle cx="200" cy="4" r="2" fill="#BA9971"/>
+      </svg>
+    </div>
+    
+    <!-- Decoración central superior -->
+    <div style="width: 100%; margin-bottom: 1.5rem; max-width: 300px;">
+      <svg width="100%" height="20" viewBox="0 0 400 20" xmlns="http://www.w3.org/2000/svg" style="display: block; margin: 0 auto;">
+        <line x1="0" y1="10" x2="400" y2="10" stroke="#BA9971" stroke-width="1"/>
+        <path d="M200 10 Q190 5 200 0 Q210 5 200 10 Q190 15 200 20 Q210 15 200 10" fill="none" stroke="#BA9971" stroke-width="1.5"/>
+      </svg>
+    </div>
+    
+    <!-- Título -->
+    <h2 style="font-size: 2.5rem; font-family: 'Playfair Display', serif; color: #BA9971; margin-bottom: 1rem; font-weight: 600; letter-spacing: 1px; line-height: 1.2; text-align: center;">Un recorrido de<br>estos 15 años</h2>
+    
+    <!-- Subtítulo -->
+    <p style="font-size: 1rem; font-family: 'Open Sans', sans-serif; color: #9C784A; margin-bottom: 2rem; line-height: 1.5; text-align: center; max-width: 400px;">Junto a personas que son<br>muy importantes en mi vida</p>
+    
+    <!-- Icono de cámara -->
+    <div style="margin-bottom: 2rem;">
+      <i class="fas fa-camera" style="font-size: 40px; color: #BA9971;"></i>
+    </div>
+    
+    <!-- Carrusel de imágenes -->
+    <div class="carousel-wrapper" style="width: 100%; max-width: 500px; margin: 0 auto 2rem; position: relative; overflow: hidden; border-radius: 12px; background-color: #1f1f1f; height: 350px;">
+      <div id="recorridoCarousel" class="carousel-container" style="display: flex; transition: transform 0.6s ease-in-out;">
+        <!-- Las 10 imágenes del carrusel -->
+        <div class="carousel-slide">
+          <div class="polaroid-card">
+            <img src="assets/img/foto1.jpeg" alt="Foto 1">
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="polaroid-card">
+            <img src="assets/img/foto2.jpeg" alt="Foto 2">
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="polaroid-card">
+            <img src="assets/img/foto3.jpeg" alt="Foto 3">
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="polaroid-card">
+            <img src="assets/img/foto4.jpeg" alt="Foto 4">
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="polaroid-card">
+            <img src="assets/img/foto5.jpeg" alt="Foto 5">
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="polaroid-card">
+            <img src="assets/img/foto6.jpeg" alt="Foto 6">
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="polaroid-card">
+            <img src="assets/img/foto7.jpeg" alt="Foto 7">
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="polaroid-card">
+            <img src="assets/img/foto8.jpeg" alt="Foto 8">
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="polaroid-card">
+            <img src="assets/img/foto9.jpeg" alt="Foto 9">
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="polaroid-card">
+            <img src="assets/img/foto10.jpeg" alt="Foto 10">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Indicadores de navegación -->
+    <div style="display: flex; justify-content: center; gap: 8px; margin-bottom: 2rem;">
+      <span class="carousel-dot active" data-slide="0" style="width: 10px; height: 10px; border-radius: 50%; background-color: #BA9971; cursor: pointer; transition: opacity 0.3s;"></span>
+      <span class="carousel-dot" data-slide="1" style="width: 10px; height: 10px; border-radius: 50%; background-color: #BA9971; cursor: pointer; transition: opacity 0.3s; opacity: 0.5;"></span>
+      <span class="carousel-dot" data-slide="2" style="width: 10px; height: 10px; border-radius: 50%; background-color: #BA9971; cursor: pointer; transition: opacity 0.3s; opacity: 0.5;"></span>
+      <span class="carousel-dot" data-slide="3" style="width: 10px; height: 10px; border-radius: 50%; background-color: #BA9971; cursor: pointer; transition: opacity 0.3s; opacity: 0.5;"></span>
+      <span class="carousel-dot" data-slide="4" style="width: 10px; height: 10px; border-radius: 50%; background-color: #BA9971; cursor: pointer; transition: opacity 0.3s; opacity: 0.5;"></span>
+      <span class="carousel-dot" data-slide="5" style="width: 10px; height: 10px; border-radius: 50%; background-color: #BA9971; cursor: pointer; transition: opacity 0.3s; opacity: 0.5;"></span>
+      <span class="carousel-dot" data-slide="6" style="width: 10px; height: 10px; border-radius: 50%; background-color: #BA9971; cursor: pointer; transition: opacity 0.3s; opacity: 0.5;"></span>
+      <span class="carousel-dot" data-slide="7" style="width: 10px; height: 10px; border-radius: 50%; background-color: #BA9971; cursor: pointer; transition: opacity 0.3s; opacity: 0.5;"></span>
+      <span class="carousel-dot" data-slide="8" style="width: 10px; height: 10px; border-radius: 50%; background-color: #BA9971; cursor: pointer; transition: opacity 0.3s; opacity: 0.5;"></span>
+      <span class="carousel-dot" data-slide="9" style="width: 10px; height: 10px; border-radius: 50%; background-color: #BA9971; cursor: pointer; transition: opacity 0.3s; opacity: 0.5;"></span>
+    </div>
+    
+    <!-- Separador decorativo inferior -->
+    <div style="width: 100%; margin-top: 1rem; max-width: 300px;">
+      <svg width="100%" height="8" viewBox="0 0 400 8" xmlns="http://www.w3.org/2000/svg" style="display: block; margin: 0 auto;">
+        <line x1="0" y1="4" x2="400" y2="4" stroke="#BA9971" stroke-width="1"/>
+        <circle cx="200" cy="4" r="2" fill="#BA9971"/>
+      </svg>
+    </div>
+  </div>
 </section>
+
+<script>
+  // Carrusel automático para la sección Recorrido
+  (function() {
+    let currentSlide = 0;
+    const totalSlides = 10;
+    let carouselInterval;
+    
+    function initCarousel() {
+      const carousel = document.getElementById('recorridoCarousel');
+      const carouselWrapper = carousel ? carousel.parentElement : null;
+      const dots = document.querySelectorAll('#recorrido .carousel-dot');
+      
+      if (!carousel || !carouselWrapper) return;
+      
+      // Establecer el ancho del contenedor dinámicamente
+      function setContainerWidth() {
+        if (carouselWrapper) {
+          const wrapperWidth = carouselWrapper.offsetWidth;
+          carousel.style.width = `${wrapperWidth * totalSlides}px`;
+        }
+      }
+      
+      function updateCarousel() {
+        if (carousel && carouselWrapper) {
+          const wrapperWidth = carouselWrapper.offsetWidth;
+          const slideWidth = wrapperWidth; // Cada slide ocupa el 100% del wrapper
+          const translateX = -(currentSlide * slideWidth);
+          carousel.style.transform = `translateX(${translateX}px)`;
+        }
+        
+        // Actualizar indicadores
+        dots.forEach((dot, index) => {
+          if (index === currentSlide) {
+            dot.style.opacity = '1';
+            dot.classList.add('active');
+          } else {
+            dot.style.opacity = '0.5';
+            dot.classList.remove('active');
+          }
+        });
+      }
+      
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateCarousel();
+      }
+      
+      // Limpiar intervalo anterior si existe
+      if (carouselInterval) {
+        clearInterval(carouselInterval);
+      }
+      
+      // Cambiar slide automáticamente cada 3 segundos
+      carouselInterval = setInterval(nextSlide, 3000);
+      
+      // Click en los dots para navegar
+      dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+          currentSlide = index;
+          updateCarousel();
+          // Reiniciar el intervalo
+          clearInterval(carouselInterval);
+          carouselInterval = setInterval(nextSlide, 3000);
+        });
+      });
+      
+      // Actualizar en resize
+      window.addEventListener('resize', () => {
+        setContainerWidth();
+        updateCarousel();
+      });
+      
+      // Inicializar
+      setContainerWidth();
+      updateCarousel();
+    }
+    
+    // Inicializar cuando el DOM esté listo
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initCarousel);
+    } else {
+      initCarousel();
+    }
+  })();
+</script>
 
 <!-- Sección: Cards -->
 <section id="cards" class="section-bg" style="padding: 2rem 1rem; text-align: center; margin-top: 0; margin-bottom: 30px; box-sizing: border-box;">
@@ -750,7 +947,7 @@
     </div>
     <!-- Card Música -->
     <div class="card-custom card-musica content-item-fiesta"
-      style="background-color: #faf2e9; border-radius: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); margin: 0 auto 1.2rem auto; overflow-wrap: break-word; word-break: break-word; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; text-align: center; width: 100%; max-width: 340px;">
+      style="background-color: #1f1f1f; border-radius: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); margin: 0 auto 1.2rem auto; overflow-wrap: break-word; word-break: break-word; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; text-align: center; width: 100%; max-width: 340px;">
       <h3 style="font-family: 'Playfair Display', serif; font-size: 2rem; background: linear-gradient(135deg, #8B2635 0%, #A02030 50%, #C41E3A 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; margin-bottom: 5px; font-weight: 600; text-align: center;">Música</h3>
       <lottie-player src="assets/img/musica.json" background="transparent" speed="1" style="width: 100%; max-width: 150px; height: auto; margin: 20px auto;" loop autoplay></lottie-player>
       <div class="card-text" style="text-align: center; padding: 0 1rem; word-break: break-word; max-width: 100%; width: 100%;">
@@ -761,16 +958,16 @@
       </div>
       <div class="d-flex justify-content-center gap-2" style="width: 100%; flex-wrap: wrap;">
         <button class="custom-card-btn mx-auto d-block" style="text-align: center; max-width: 250px; width: 100%; margin-bottom: 0.5rem;" onclick="document.getElementById('sugerir').style.display = 'flex';">Sugerir canción</button>
-        <button class="custom-card-btn mx-auto d-block" style="text-align: center; max-width: 250px; width: 100%;" onclick="window.open('https://open.spotify.com/playlist/6SUGJGmHKo40xFJ6NeB0Fr', '_blank')">Playlist de Spotify</button>
+        <button class="custom-card-btn mx-auto d-block" style="text-align: center; max-width: 250px; width: 100%;" onclick="window.open('https://open.spotify.com/playlist/3bTjisE8BRE6OPOHiWA7Pq?si=cc11785549594c37&pt=50c35658086a3dd17b10f577723637b2', '_blank')">Playlist de Spotify</button>
       </div>
     </div>
 
     <!-- Card dresscode -->
     <div class="card-custom card-dresscode content-item-fiesta d-flex flex-column justify-content-between align-items-center mx-auto"
-      style="background-color: #faf2e9; border-radius: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 1.2rem 1rem; text-align: center; max-width: 340px; width: 100%; margin: 0 auto;">
+      style="background-color: #1f1f1f; border-radius: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); padding: 1.2rem 1rem; text-align: center; max-width: 340px; width: 100%; margin: 0 auto;">
       <h3 style="font-family: 'Playfair Display', serif; font-size: 2rem; background: linear-gradient(135deg, #8B2635 0%, #A02030 50%, #C41E3A 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; margin-bottom: 5px; font-weight: 600;">Dress Code</h3>
               <lottie-player src="assets/img/Shirt.json" background="transparent" speed="1" style="width: 100%; max-width: 100px; height: auto; margin: 20px auto;" loop autoplay></lottie-player>
-      <p style="font-family: 'Open Sans', sans-serif; color: #9C784A; font-weight: 600;">Formal Etiqueta</p>
+      <p style="font-family: 'Open Sans', sans-serif; color: #9C784A; font-weight: 600;">Formal etiqueta (Evitar usar rojo)</p>
       <div class="d-flex justify-content-center gap-3 flex-wrap card-buttons-group">
       </div>
     </div>
@@ -782,17 +979,11 @@
 <section id="regalos" style="background-color: #282828; padding: 2rem 1rem; position: relative; text-align: center; margin-top: 0; box-sizing: border-box;">
   <div class="container" style="margin: 0 auto; text-align: center;">
     <h2 class="text-center mb-3" style="font-family: 'Playfair Display', serif; background: linear-gradient(135deg, #8B2635 0%, #A02030 50%, #C41E3A 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; font-weight: 600; font-size: 25.6px;">Regalos</h2>
-    <p class="text-center" style="font-family: 'Playfair Display', serif; color: #BA9971; font-size: 1.2rem;">¡Nuestro mayor regalo es compartir este día con vos!</p>
+    <p class="text-center" style="font-family: 'Playfair Display', serif; color: #BA9971; font-size: 1.2rem;">¡Mi mayor regalo será tu presencias!</p>
     <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 1.2rem;">
       <lottie-player src="assets/img/regalo.json" background="transparent" speed="1" style="width: 100%; max-width: 150px; height: auto;" loop autoplay></lottie-player>
     </div>
-    <p style="font-family: 'Open Sans', sans-serif; color: #BA9971;">
-      Si querés ayudarnos a construir nuestro hogar, podés hacerlo con una transferencia.<br>
-      ¡Gracias por ser parte de este sueño!
-    </p>
-    <div class="text-center mt-3">
-      <button onclick="document.getElementById('regalosModal').style.display='block'" class="btn btn-custom" style="max-width: 250px; width: 100%; margin: 0 auto;">DATOS BANCARIOS</button>
-    </div>
+    
   </div>
   <!-- Modal Regalos visual style -->
   <div id="regalosModal" class="modal fade show" tabindex="100" style="display: none;" aria-modal="true" role="dialog">
@@ -818,11 +1009,8 @@
     <div style="margin-bottom: 20px; display: flex; justify-content: center; align-items: center;">
       <lottie-player src="assets/img/Instagram.json" background="transparent" speed="1" style="width: 100%; max-width: 150px; height: auto;" loop autoplay></lottie-player>
     </div>
-          <h3 style="font-size: 1.5rem; font-family: 'Open Sans', sans-serif; color: #9C784A; font-weight: 600; margin-bottom: 20px;">@ismaysofi2025</h3>
-      <div style="display: flex; justify-content: center; margin: 20px 0 30px 0;">
-        <img src="assets/img/QR.png" style="width: 200px; height: 200px; object-fit: contain; display: block;">
-      </div>
-      <a href="https://www.instagram.com/ismaysofi2025?igsh=eGphanpjaHhxZWpq" target="_blank" class="btn-custom btn-instagram" style="max-width: 250px; width: 100%; margin: 0 auto;">VER EN INSTAGRAM</a>
+          <h3 style="font-size: 1.5rem; font-family: 'Open Sans', sans-serif; color: #9C784A; font-weight: 600; margin-bottom: 20px;">@XVSASHA</h3>
+      <a href="https://www.instagram.com/target="_blank" class="btn-custom btn-instagram" style="max-width: 250px; width: 100%; margin: 0 auto;">VER EN INSTAGRAM</a>
   </section> 
   </div>
 
@@ -830,7 +1018,7 @@
 <div id="sugerir" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); z-index: 10000; align-items: center; justify-content: center;">
     <div style="background: #fff8f0; border-radius: 12px; width: 85vw; max-width: 400px; height: 80vh; overflow: hidden; padding: 1.5rem; position: relative; text-align: center; box-shadow: 0 8px 30px 8px rgba(0, 0, 0, 0.2);">
       <button onclick="closeSugerirModal()" style="position: absolute; top: 8px; right: 8px; background-color: #d79330; border: none; border-radius: 50%; width: 36px; height: 36px; color: white; font-weight: bold; cursor: pointer; font-family: Arial, sans-serif; font-size: 1.2rem;" >X</button>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQhWlBKa-esPpjvwH7RpP0va5ITcUDhzgR1gcpdbZIVyJ-6A/viewform?embedded=true" width="100%" height="100%" style="border-radius: 12px; border: none;" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScyR0h_lZF5rs4i1CdZSepTuOW3XEG94-I5_9GXbK1ezQsVNA/viewform?embedded=true" width="100%" height="100%" style="border-radius: 12px; border: none;" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
     </div>
 </div>
 
@@ -1028,8 +1216,8 @@
   }
   .card-custom {
     border-radius: 24px !important;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.10), 0 1.5px 6px rgba(0,0,0,0.06) !important;
-    background: #F9F2E5;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3), 0 1.5px 6px rgba(0,0,0,0.2) !important;
+    background: #1f1f1f;
   }
   .section-title {
     font-family: 'Playfair Display', serif; 
@@ -1402,4 +1590,107 @@
       height: 40px !important;
     }
   }
+  /* Estilos para carrusel de Recorrido */
+  #recorrido .carousel-wrapper {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 2rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #1f1f1f;
+    height: 350px;
+  }
+  #recorrido .carousel-container {
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+    will-change: transform;
+    width: 1000%;
+    height: 100%;
+  }
+  #recorrido .carousel-slide {
+    flex: 0 0 10%;
+    min-width: 10%;
+    width: 10%;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  #recorrido .polaroid-card {
+    width: 100%;
+    max-width: 300px;
+    height: 320px;
+    background-color: #F5E6D3;
+    padding: 12px 12px 40px 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  #recorrido .polaroid-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 2px;
+    display: block;
+  }
+  #recorrido .carousel-slide img:hover {
+    transform: scale(1.02);
+  }
+  #recorrido .carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #BA9971;
+    cursor: pointer;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  #recorrido .carousel-dot:hover {
+    transform: scale(1.2);
+  }
+  #recorrido .carousel-dot.active {
+    opacity: 1;
+  }
+  @media (max-width: 768px) {
+    #recorrido h2 {
+      font-size: 2rem !important;
+    }
+    #recorrido .carousel-wrapper {
+      height: 300px !important;
+    }
+    #recorrido .polaroid-card {
+      max-width: 250px;
+      height: 270px;
+      padding: 10px 10px 35px 10px;
+    }
+  }
+  @media (max-width: 480px) {
+    #recorrido {
+      padding: 2rem 1rem !important;
+    }
+    #recorrido h2 {
+      font-size: 1.8rem !important;
+    }
+    #recorrido p {
+      font-size: 0.9rem !important;
+    }
+    #recorrido .carousel-wrapper {
+      height: 250px !important;
+    }
+    #recorrido .polaroid-card {
+      max-width: 200px;
+      height: 220px;
+      padding: 8px 8px 30px 8px;
+    }
+    #recorrido .carousel-dot {
+      width: 8px;
+      height: 8px;
+    }
+  }
+</style>
 </style>
